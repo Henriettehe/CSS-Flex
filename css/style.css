@@ -47,9 +47,9 @@ main{
     grid-column-end: 3;
     grid-row-end: 3;
 
-    display: grid;
-    grid-template-areas: "col-1 col-2 col-3";
-    justify-content: space-evenly;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 #article-1{
@@ -106,8 +106,7 @@ footer{
 
 main article{
     /*endret vidde bredde fra hva vi gjorde 05.08*/
-    max-width: 250px;
-    width: 100%;
+    flex-basis: 200px;
     border: 1px solid #d9d9d9;
     padding: 1rem;
 }
